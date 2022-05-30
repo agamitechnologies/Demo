@@ -1,0 +1,21 @@
+{
+  "name": "socket",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "socket": "node socket.js",
+    "socketD": "nodemon socket.js",
+    "static": "node static-server.js",
+    "staticD": "nodemon static-server.js"
+  },
+  "author": "Ram",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  },
+  "dependencies": {
+    "express": "^4.18.1",
+    "socket.io": "^4.5.1"
+  }
+}

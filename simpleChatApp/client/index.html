@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Socket base page</title>
+
+    <script src="./js/socket.io.min.js"></script>
+
+
+</head>
+<body>
+    <div id="loginForm">
+        <input type="text" id="username">
+        <button type="button" id="setNameBtn">Set Name</button>
+    </div>
+    <button id="disconnectBtn" hidden>Disconnect</button>
+
+    <div>
+        <h1>Chat Area</h1>
+        <input type="text" id="msgBox" hidden>
+        <button type="button" id="sendBtn" hidden>Send</button>
+        <div id="charArea" hidden> </div>
+    </div>
+
+</body>
+
+
+
+<script src="./js/custom.js"></script>
+</html>
